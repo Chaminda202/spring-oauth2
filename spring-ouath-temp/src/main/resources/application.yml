@@ -1,0 +1,26 @@
+server:
+  port: 8180
+  
+spring:
+  application:
+    name: spring-ouath-first
+
+#  security:
+#    user:
+#      name: saman
+#      password: saman
+#      roles: ADMIN,USER
+#
+#security:
+#  oauth2:
+#    client:
+#      client-id: mobile
+#      client-secret: mobile
+#      access-token-validity-seconds: 3600
+#      refresh-token-validity-seconds: 10000
+#      authorized-grant-types:
+#        authorization_code,password,refresh_token,implicit
+#      scope:
+#      - read,write
+#    authorization:
+#      check-token-access: permitAll
